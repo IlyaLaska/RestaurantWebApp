@@ -1,0 +1,22 @@
+{
+  "name": "kurs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node .\\server\\server.js",
+    "listener": "node .\\listener\\msgListener.js",
+    "both": "npm run server & npm run listener",
+    "docker": "docker run -d --name redis -p 6379:6379 --restart unless-stopped myredis"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.9.2",
+    "fastify-static": "^3.3.0",
+    "firebase": "^8.2.1",
+    "firebase-admin": "^9.4.2",
+    "redis": "^3.0.2"
+  }
+}

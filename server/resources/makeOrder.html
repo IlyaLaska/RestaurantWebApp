@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+<!--    <link rel="stylesheet" href="style.css">-->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<div id="login">
+    <h3 class="text-center text-white pt-5">Order form</h3>
+    <div class="container">
+        <div id="login-row" class="row justify-content-center align-items-center">
+            <div id="login-column" class="col-md-6">
+                <div id="login-box" class="col-md-12">
+                    <form id="login-form" class="form" action="http://127.0.0.1:80/order" method="post" enctype="text/plain">
+                        <h3 class="text-center text-info">Please make your order</h3><br>
+                        <div class="form-group">
+                            <label for="tableNum" class="text-info">Your table number:</label><br>
+                            <input type="text" name="tableNum" id="tableNum" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="checkboxItem1" class="text-info"><span>Menu Item 1: </span>
+                                <span><input type="checkbox" id="checkboxItem1" name="item1"></span></label><br>
+                            <label for="checkboxItem2" class="text-info"><span>Menu Item 2: </span>
+                                <span><input type="checkbox" id="checkboxItem2" name="item2"></span></label><br>
+                            <label for="checkboxItem3" class="text-info"><span>Menu Item 3: </span>
+                                <span><input type="checkbox" id="checkboxItem3" name="item3"></span></label><br>
+                            <label for="checkboxItem4" class="text-info"><span>Menu Item 4: </span>
+                                <span><input type="checkbox" id="checkboxItem4" name="item4"></span></label><br>
+                            <label for="checkboxItem5" class="text-info"><span>Menu Item 5: </span>
+                                <span><input type="checkbox" id="checkboxItem5" name="item5"></span></label>
+<!--                            <label for="checkboxServer" class="text-info"><span>I am a Cook: </span><span><input type="radio" id="checkboxServer" name="occupation" value="server" checked></span></label>-->
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btn btn-info btn-md" value="submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
