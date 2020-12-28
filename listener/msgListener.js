@@ -1,31 +1,23 @@
 'use strict';
 
 const redis = require('redis');
-const admin = require('firebase-admin');
-const serviceAccount = require('./key.json');
 const subscriber = redis.createClient();
-
-admin.initializeApp({
-    credential: admin.credential.cert(serviceAccount)
-});
-
-const db = admin.firestore();
-// let lastLoginID = db.collection('data').doc('logins').
+const db = require('../db/dbConnector');
 
 subscriber.on("message", (channel, message) => {
     const {time, ...data} = JSON.parse(message);
     if(channel === 'order') data.action = 'add';
     else if(channel === 'delOrder') data.action = 'remove';
     if(channel === 'login') {
-        db.collection('data').doc('logins').set({[time]: JSON.stringify(data)}, { merge: true });
-    } else {
-        db.collection('data').doc('orders').set({[time]: JSON.stringify(data)}, { merge: true });
+        db.write('logins', time, data);
+    } else if(channel === 'register') {
+        db.write('register', time, data);
+    } else if(channel === 'order') {
+        db.write('orders', time, data);
     }
 });
 
 subscriber.subscribe('login');
+subscriber.subscribe('register');
 subscriber.subscribe('order');
 subscriber.subscribe('delOrder');
-
-
-// db.collection('data').doc('logins').set({k: 'ek'});

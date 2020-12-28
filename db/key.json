@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ilaska-kurs-y4s1",
+  "private_key_id": "924cb965ad2179a2618fc69214ae6b0d5b0f7906",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDNXuyD8ZLaltLK\n4/SDyIqoz+y1kqqJBGILekWvCuff9cusJfHew/PmkMCmCwdWUBOxYD1Ug5agXg6E\n+E7jZ2Err/Aai+XNClN9cMUtjsFz0Fm8J7JPu1DDqM/XBQi5qznUZ0AiGEeSWgJJ\n/xI3uZ7x1V3CoauL3B5h5ZHXOYLLT14BxfkJhl/KJ1HASwYAGQKZ9l9BtvdRJwpz\nkr2vnieZJEiwoTHQdwa2eGkzgFfpiO6fNJvB4UFE6QsrUo+lPMAAFb/05eyBkNnl\nJKljCRRnr23k3n1+JSk2AjKESqTYwBytYIverYzUAN91EfO48AoA0UUb3XeoMucV\n7FqtbRnfAgMBAAECggEAFtQFMgTGyvx2kZigLovlTy7O7un5gdcrt386bWLRc9V5\nySNt93yhnmXwZs9ABrSfqRj7surDnK+H0/kD+obHHYOQ4BU1O0L5aoQABE3jgWZO\nAI+1uY4mmUZ+VTYuikZBsd4I73adHLlbmse7Hy2cwOCeQPXBQKp8SBaBd8KL9YxO\n5aMLGzxyfUolXUZfwUNaC/WxdEZ6/0uXfMGIiPvi7LN+kP38O2a0Askz+HoIbKJP\nDkJyhRoVInymEgvRSZl94jZih7S/4nfTFqq9fJuAXceqlgqDtL8p/J/X1fxFU6BL\nWkleQ9+NNuunJQeX0HJg7UlW3p8McmNH2SWXPcL2oQKBgQD9JzE0wkj93cKoZPuS\nMHs9/tTd6IoQpWEzrmSvNTylcleDquOKLDZ3LzB1dQMDzzeABwj92n+oKoeylAEt\nuF4g9FxUcbWGYEIYQQZTfotuVGvjd2n63/rMPBgR0X6Tk3T4vp0jps1hArGyXExU\n7r4umDZDW2gf69GUingBuHLQfwKBgQDPriuS44eca3pKpbJQ7CE+sbZroErZgDS3\n0OAdOyQCFMTvdM3CZOZy//GQtwKZrVeKOxYWs3ZAwT7exyZAjjNHGlVvEf0K1Kgb\niInW9f9f4EW5ZgrmvQ82ymvCoXH4o93kW90y+2vQht3drqjhSDGWExFMo8SpGjYy\nDZjqiSsGoQKBgQChT/UR+m+KnWHp7hdEa3JM6fJ4yTIZM1kCFrF/1/uiLX9Inn9J\nz6yRO9e0MPDP354tDc6T/ER2Q0ue5qLtoFsSwsOG58JVM0dKrzy5vZxZnJ/3HWPC\nAjGNLQnlaMowfbj+vG/jhOnAVHgpAJl/UXaMuF9zgm6SULGG5slbx04aPwKBgFD4\nx2Rt8eG6xeN01yFV72BSSZ2M0aIbqnJAriC3fkKRdncmQ1MXpAISaEzUDd99BjSO\n9P3E2sZEkg6p9vAUgUmnqseza8VdRG33vkZhg0AOYSD3+CgebmAebAVmjNk0ir8O\nUiAehtq2uqpD/vRXAX5R0NzgvTxxS9AYHRbUhEIBAoGAe/TAdSXL0LFxPeNrKbc2\niWtl8GfA+warOC0LZ1yIy5T4T6HG7zGEW42DjKv1nhICSOlTrbRWdgwcp6xOhQO9\nXyG49jqzbq4sKGVuntVLOIPG2qlkAUGEt4+mtE2ybIbdAho5E70ji29brLq3PdDL\nPMAlUmMoxUFPWAtesFFQq5c=\n-----END PRIVATE KEY-----\n",
+  "client_email": "messenger@ilaska-kurs-y4s1.iam.gserviceaccount.com",
+  "client_id": "112332099748188910917",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/messenger%40ilaska-kurs-y4s1.iam.gserviceaccount.com"
+}
